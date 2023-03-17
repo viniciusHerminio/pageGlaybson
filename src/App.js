@@ -28,7 +28,7 @@ function App() {
   ];
   return (
     <div className="App">
-      <header className="App-header mb-5">
+      <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
       <footer>
