@@ -11,6 +11,8 @@ import bergDybala from './patrocinadores/bergDybala.jpeg'
 import britoCell from './patrocinadores/britoCell.jpeg'
 import RF from './patrocinadores/RF.jpeg'
 import botao from './botão.png'
+import oticasMadrid from './patrocinadores/oticasMadrid.jpeg'
+import deliciasDoRancho from './patrocinadores/deliciasDoRancho.jpeg'
 
 function App() {
 
@@ -30,6 +32,8 @@ function App() {
     <img src={ bergDybala } alt="bergdybala" className="patrocinio" onClick={ redirectPage } />,
     <img src={ britoCell } alt="britocellpesqueira" name="meuNome" className="patrocinio" onClick={ redirectPage } />,
     <img src={ RF } alt="rf_bolos.dofc" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ oticasMadrid } alt="oticamadrid" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ deliciasDoRancho } alt="deliciasdorancho4" className="patrocinio" onClick={ redirectPage } />
   ];
 
   
@@ -38,11 +42,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-
+      <div className='quadroFundo'>
         <h4 className='casarao mt-4'>Cores de look: Fúcsia/Roxo ou Branco</h4>
         <h4 className='casarao mt-1'>Horário: A partir das 18:00h</h4>
         <h4 className='casarao mt-1'>Haverá bar no local</h4>
         <h2 className='casarao mt-1'>Open Food</h2>
+        </div>
       </header>
       <footer>
         <div className='d-flex justify-content-evenly'>
