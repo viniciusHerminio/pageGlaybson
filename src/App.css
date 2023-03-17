@@ -35,7 +35,7 @@ html {
 .titlePatrocinadores {
   font-family: 'Luckiest Guy', cursive;
   font-size: 30px;
-  color: #C72b81;
+  color: white;
 }
 
 .titleLocalizacao {
@@ -64,10 +64,20 @@ html {
 .quadroFundo {
   text-align: center;
   background-color: white;
-  width: 60vh;
+  width: 70vh;
   margin-top: 20px;
   border-radius: 10px;
   border: #C72b81 solid 2px;
+}
+
+.quadroPatrocinadores {
+  text-align: center;
+  background-color: #511666;
+  text-shadow: #C72b81 2px 3px 2px;
+  box-shadow: 0px 0px 1em black;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 a:link {

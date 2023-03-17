@@ -81,6 +81,7 @@ function App() {
         </ul>
       </div>
       </div>
+      <div className='quadroPatrocinadores'>
          <div className='titlePatrocinadores'>
         <p className='patrocinadoresTitle'>Patrocinadores</p>
       </div>
@@ -94,6 +95,7 @@ function App() {
         disableButtonsControls
         disableDotsControls
         />
+        </div>
       </footer>
       </div>
   );
