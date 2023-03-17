@@ -33,14 +33,14 @@ function App() {
       </header>
       <footer>
         <div className='d-flex justify-content-evenly'>
-      <div className='d-flex flex-column justify-content-evenly'>
-        <a className='titleLocalizacao' href="https://www.google.com.br/maps/place/8°22'19.7%22S+36°42'27.0%22W/@-8.372146,-36.707502,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-8.372146!4d-36.707502">
+      <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
+        <a href="https://www.google.com.br/maps/place/8°22'19.7%22S+36°42'27.0%22W/@-8.372146,-36.707502,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-8.372146!4d-36.707502">
         <p>Localização 1º Dia</p>
         <p>Casarão</p>
         </a>
       </div>
-      <div className='d-flex flex-column justify-content-evenly'>
-      <a className='titleLocalizacao' href="https://goo.gl/maps/DmNPhiGdLvzSZJ6L6">
+      <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
+      <a href="https://goo.gl/maps/DmNPhiGdLvzSZJ6L6">
         <p>Localização 2º Dia</p>
         <p>Piscina de Gilvanio</p>
         </a>
