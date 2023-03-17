@@ -38,7 +38,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p></p>
+
+        <h4 className='casarao mt-4'>Cores de look: Fúcsia/Roxo ou Branco</h4>
+        <h4 className='casarao mt-1'>Horário: A partir das 18:00h</h4>
+        <h4 className='casarao mt-1'>Haverá bar no local</h4>
+        <h2 className='casarao mt-1'>Open Food</h2>
       </header>
       <footer>
         <div className='d-flex justify-content-evenly'>
