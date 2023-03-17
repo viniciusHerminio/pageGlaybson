@@ -38,6 +38,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+      </header>
+      <footer>
         <div className='d-flex justify-content-evenly'>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
        
@@ -70,8 +72,6 @@ function App() {
         </ul>
       </div>
       </div>
-      </header>
-      <footer>
          <div className='titlePatrocinadores'>
         <p className='patrocinadoresTitle'>Patrocinadores</p>
       </div>
