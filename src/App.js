@@ -31,9 +31,10 @@ function App() {
       <header className="App-header mb-5">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <div className='d-flex justify-content-evenly mt-5'>
+      <footer>
+        <div className='d-flex justify-content-evenly mt-5'>
       <div className='d-flex flex-column justify-content-evenly mt-5'>
-        <a className='titleLocalizacao' href="https://maps.app.goo.gl/h6GBkiebphVXQzi27?g_st=iwb">
+        <a className='titleLocalizacao' href="https://www.google.com.br/maps/place/8°22'19.7%22S+36°42'27.0%22W/@-8.372146,-36.707502,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-8.372146!4d-36.707502">
         <p>Localização 1º Dia</p>
         <p>Casarão</p>
         </a>
@@ -45,7 +46,6 @@ function App() {
         </a>
       </div>
       </div>
-      <footer>
         <div className='titlePatrocinadores'>
         <p className='patrocinadoresTitle'>Patrocinadores</p>
       </div>
