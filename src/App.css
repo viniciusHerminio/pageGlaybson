@@ -39,16 +39,17 @@ footer {
 
 .titleLocalizacao {
   font-family: 'Luckiest Guy', cursive;
-  font-size: 20px;
+  font-size: 15px;
   color: #C72b81;
+  margin-bottom: 20px;
 }
 
 .botao img {
-  width: 230px;
+  width: 150px;
 }
 
 .casarao {
-  margin-top: -35px ;
+  margin-top: -25px ;
   color: #C72b81;
   text-shadow: -1px 0 white, 0 1px white,
   1px 0 white, 0 -1px white;
