@@ -42,3 +42,22 @@ footer {
   font-size: 20px;
   color: #C72b81;
 }
+
+.botao img {
+  width: 230px;
+}
+
+.casarao {
+  margin-top: -35px ;
+  color: #C72b81;
+  text-shadow: -1px 0 white, 0 1px white,
+  1px 0 white, 0 -1px white;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
