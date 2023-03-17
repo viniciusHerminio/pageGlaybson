@@ -14,7 +14,7 @@ import RF from './patrocinadores/RF.jpeg'
 function App() {
 
   const responsive = {
-    0: { items: 7 },
+    0: { items: 3 },
     1024: { items: 7 },
 };
   const items = [
