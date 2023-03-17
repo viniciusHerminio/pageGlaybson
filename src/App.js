@@ -42,7 +42,6 @@ function App() {
       <footer>
         <div className='d-flex justify-content-evenly'>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
-       
         <a href="https://maps.app.goo.gl/h6GBkiebphVXQzi27?g_st=iwb">
         <p className='casarao'>Localização 1º Dia</p>
         <div className='botao'>
