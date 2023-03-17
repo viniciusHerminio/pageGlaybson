@@ -18,21 +18,26 @@ function App() {
     0: { items: 3 },
     1024: { items: 7 },
 };
+  function redirectPage (e) {
+    window.location.href = `https://instagram.com/${e.target.alt}?igshid=YmMyMTA2M2Y=`;
+  };
+  
   const items = [
-    <img src={ matutoPremios } alt="presentation" className="patrocinio" />,
+    <img src={ matutoPremios } alt="matutopremiosoficial" className="patrocinio" onClick={ redirectPage } />,
     <img src={ doispra1000 } alt="presentation" className="patrocinio" />,
-    <img src={ amorECor } alt="presentation" className="patrocinio" />,
-    <img src={ belaModas } alt="presentation" className="patrocinio" />,
-    <img src={ bergDybala } alt="presentation" className="patrocinio" />,
-    <img src={ britoCell } alt="presentation" className="patrocinio" />,
-    <img src={ RF } alt="presentation" className="patrocinio" />,
+    <img src={ amorECor } alt="amorecorfestasedecoracoes" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ belaModas } alt="modas4656" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ bergDybala } alt="bergdybala" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ britoCell } alt="britocellpesqueira" name="meuNome" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ RF } alt="rf_bolos.dofc" className="patrocinio" onClick={ redirectPage } />,
   ];
+
+  
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-      </header>
-      <footer>
         <div className='d-flex justify-content-evenly'>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
        
@@ -43,6 +48,12 @@ function App() {
         </div>
         <p className='casarao'>Casarão</p>
         </a>
+        <h3 className='mt-3'>Atrações dia 15/04 </h3>
+        <ul>
+          <li>Dj Pedro Humberto</li>
+          <li>Andreza Queiroz</li>
+          <li>Andreza Almeida</li>
+        </ul>
       </div>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
       <a href="https://goo.gl/maps/DmNPhiGdLvzSZJ6L6">
@@ -52,16 +63,23 @@ function App() {
         </div>
         <p className='casarao'>Piscina de Gilvanio</p>
         </a>
+        <h3 className='mt-3'>Atrações dia 16/04</h3>
+        <ul className='m-3'>
+          <li>Jailson Paixão</li>
+          <li>Paredão 2 para 1000</li>
+        </ul>
       </div>
       </div>
-        <div className='titlePatrocinadores'>
+      </header>
+      <footer>
+         <div className='titlePatrocinadores'>
         <p className='patrocinadoresTitle'>Patrocinadores</p>
       </div>
         <AliceCarousel
         items={items}
         responsive={responsive}
         autoPlay
-        autoPlayInterval={1000}
+        autoPlayInterval={3000}
         animationDuration={1000}
         infinite
         disableButtonsControls

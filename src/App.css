@@ -41,10 +41,14 @@ footer {
   font-family: 'Luckiest Guy', cursive;
   font-size: 15px;
   color: #C72b81;
-  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .botao img {
+  width: 150px;
+}
+
+.patrocinio:hover {
   width: 150px;
 }
 
