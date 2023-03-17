@@ -38,6 +38,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p></p>
       </header>
       <footer>
         <div className='d-flex justify-content-evenly'>
@@ -49,7 +50,7 @@ function App() {
         </div>
         <p className='casarao'>Casarão</p>
         </a>
-        <h3 className='mt-3'>Atrações dia 15/04 </h3>
+        <h3 className='mt-3'>Atrações dia <br></br> 15/04 </h3>
         <ul>
           <li>Dj Pedro Humberto</li>
           <li>Andreza Queiroz</li>
@@ -64,7 +65,7 @@ function App() {
         </div>
         <p className='casarao'>Piscina de Gilvanio</p>
         </a>
-        <h3 className='mt-3'>Atrações dia 16/04</h3>
+        <h3 className='mt-3'>Atrações dia <br></br> 16/04</h3>
         <ul className='m-3'>
           <li>Jailson Paixão</li>
           <li>Paredão 2 para 1000</li>
