@@ -23,9 +23,12 @@ function App() {
   function redirectPage (e) {
     window.location.href = `https://instagram.com/${e.target.alt}?igshid=YmMyMTA2M2Y=`;
   };
+  function redirectPageMatuto (e) {
+    window.location.href = `https://rifa.digital/s/iphone-11-ou-1500-no-pix-matuto-premios790`;
+  };
   
   const items = [
-    <img src={ matutoPremios } alt="matutopremiosoficial" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ matutoPremios } alt="matutopremiosoficial" className="patrocinio" onClick={ redirectPageMatuto } />,
     <img src={ doispra1000 } alt="presentation" className="patrocinio" />,
     <img src={ amorECor } alt="amorecorfestasedecoracoes" className="patrocinio" onClick={ redirectPage } />,
     <img src={ belaModas } alt="modas4656" className="patrocinio" onClick={ redirectPage } />,
