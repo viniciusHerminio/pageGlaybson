@@ -3,16 +3,20 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
-import matutoPremios from './patrocinadores/matutoPremios.jpeg'
-import doispra1000 from './patrocinadores/2pra1000.jpeg'
-import amorECor from './patrocinadores/amorECor.jpeg'
-import belaModas from './patrocinadores/belaModas.jpeg'
-import bergDybala from './patrocinadores/bergDybala.jpeg'
-import britoCell from './patrocinadores/britoCell.jpeg'
-import RF from './patrocinadores/RF.jpeg'
-import botao from './botão.png'
-import oticasMadrid from './patrocinadores/oticasMadrid.jpeg'
-import deliciasDoRancho from './patrocinadores/deliciasDoRancho.jpeg'
+import matutoPremios from './patrocinadores/matutoPremios.jpeg';
+import doispra1000 from './patrocinadores/2pra1000.jpeg';
+import amorECor from './patrocinadores/amorECor.jpeg';
+import belaModas from './patrocinadores/belaModas.jpeg';
+import bergDybala from './patrocinadores/bergDybala.jpeg';
+import britoCell from './patrocinadores/britoCell.jpeg';
+import RF from './patrocinadores/RF.jpeg';
+import botao from './botão.png';
+import oticasMadrid from './patrocinadores/oticasMadrid.jpeg';
+import deliciasDoRancho from './patrocinadores/deliciasDoRancho.jpeg';
+import heloizaImport from './patrocinadores/heloizaImport.jpeg';
+import Henrique from './patrocinadores/Henrique.png';
+import LK from './patrocinadores/LK.jpeg';
+import rafaEudora from './patrocinadores/rafaEudora.jpeg';
 
 function App() {
 
@@ -36,7 +40,11 @@ function App() {
     <img src={ britoCell } alt="britocellpesqueira" name="meuNome" className="patrocinio" onClick={ redirectPage } />,
     <img src={ RF } alt="rf_bolos.dofc" className="patrocinio" onClick={ redirectPage } />,
     <img src={ oticasMadrid } alt="oticamadrid" className="patrocinio" onClick={ redirectPage } />,
-    <img src={ deliciasDoRancho } alt="deliciasdorancho4" className="patrocinio" onClick={ redirectPage } />
+    <img src={ deliciasDoRancho } alt="deliciasdorancho4" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ heloizaImport } alt="heloiza1ff" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ Henrique } alt="henriquemotopecas_" className="patrocinio" onClick={ redirectPage } />,
+    <img src={ LK } alt="LK" className="patrocinio"/>,
+    <img src={ rafaEudora } alt="rafa_eudora_" className="patrocinio" onClick={ redirectPage } />
   ];
 
   
@@ -47,7 +55,6 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
       <div className='quadroFundo'>
         <h4 className='casarao mt-4'>Cores de look: Fúcsia/Roxo ou Branco</h4>
-        <h4 className='casarao mt-1'>Horário: A partir das 18:00h</h4>
         <h4 className='casarao mt-1'>Haverá bar no local</h4>
         <h2 className='casarao mt-1'>Open Food</h2>
         </div>
@@ -68,6 +75,7 @@ function App() {
           <li>Andreza Queiroz</li>
           <li>Andreza Almeida</li>
         </ul>
+        <h5>Horário: A partir das 18:00h</h5>
       </div>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
       <a href="https://goo.gl/maps/DmNPhiGdLvzSZJ6L6">
@@ -82,6 +90,7 @@ function App() {
           <li>Jailson Paixão</li>
           <li>Paredão 2 para 1000</li>
         </ul>
+        <h5>Horário: Das 13h às 20h</h5>
       </div>
       </div>
       <div className='quadroPatrocinadores'>
