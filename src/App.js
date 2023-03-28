@@ -75,7 +75,7 @@ function App() {
           <li>Andreza Queiroz</li>
           <li>Andreza Almeida</li>
         </ul>
-        <h5>Horário: A partir das 18:00h</h5>
+        <p>Horário: A partir das 18:00h</p>
       </div>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
       <a href="https://goo.gl/maps/DmNPhiGdLvzSZJ6L6">
@@ -90,7 +90,7 @@ function App() {
           <li>Jailson Paixão</li>
           <li>Paredão 2 para 1000</li>
         </ul>
-        <h5>Horário: Das 13h às 20h</h5>
+        <p>Horário: Das 13h às 20h</p>
       </div>
       </div>
       <div className='quadroPatrocinadores'>
