@@ -75,7 +75,7 @@ function App() {
           <li>Andreza Queiroz</li>
           <li>Andreza Almeida</li>
         </ul>
-        <p>Horário: A partir das 18:00h</p>
+        <p>Horário: 18:00h</p>
       </div>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
       <a href="https://goo.gl/maps/DmNPhiGdLvzSZJ6L6">
