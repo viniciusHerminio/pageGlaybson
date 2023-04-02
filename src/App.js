@@ -67,23 +67,24 @@ function App() {
         <div className='botao'>
           <img src={botao} alt='botao' />
         </div>
-        <p className='casarao'>Casarão</p>
+        <p className='casarao fonte'>Casarão</p>
         </a>
         <h3 className='mt-3'>Atrações dia <br></br> 15/04 </h3>
         <ul>
           <li>Dj Pedro Humberto</li>
           <li>Andreza Queiroz</li>
           <li>Andreza Almeida</li>
+          <li>Felipe Geração</li>
         </ul>
         <p>Horário: 18:00h</p>
       </div>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
-      <a href="https://goo.gl/maps/DmNPhiGdLvzSZJ6L6">
+      <a href="https://goo.gl/maps/TKd3XVBSBpDuhpUM8">
         <p className='casarao'>Localização 2º Dia</p>
         <div className='botao'>
           <img src={botao} alt='botao' />
         </div>
-        <p className='casarao'>Piscina de Gilvanio</p>
+        <p className='casarao'>Parque de Exposição <br></br> Chácara de Messias</p>
         </a>
         <h3 className='mt-3'>Atrações dia <br></br> 16/04</h3>
         <ul className='m-3'>
