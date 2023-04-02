@@ -67,7 +67,7 @@ function App() {
         <div className='botao'>
           <img src={botao} alt='botao' />
         </div>
-        <p className='casarao fonte'>Casarão</p>
+        <p className='casarao fonte1'>Casarão</p>
         </a>
         <h3 className='mt-3'>Atrações dia <br></br> 15/04 </h3>
         <ul>
@@ -84,7 +84,7 @@ function App() {
         <div className='botao'>
           <img src={botao} alt='botao' />
         </div>
-        <p className='casarao'>Parque de Exposição <br></br> Chácara de Messias</p>
+        <p className='casarao fonte2'>Parque de Exposição <br></br> Chácara de Messias</p>
         </a>
         <h3 className='mt-3'>Atrações dia <br></br> 16/04</h3>
         <ul className='m-3'>

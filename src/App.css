@@ -39,8 +39,12 @@ html {
   color: white;
 }
 
-.fonte {
+.fonte1 {
   font-size: 25px;
+}
+
+.fonte2 {
+  font-size: 10px;
 }
 
 .titleLocalizacao {
@@ -51,7 +55,7 @@ html {
 }
 
 .botao img {
-  width: 220px;
+  width: 150px;
 }
 
 .patrocinio:hover {
@@ -59,7 +63,7 @@ html {
 }
 
 .casarao {
-  margin-top: -40px ;
+  margin-top: -28px ;
   font-family: 'Luckiest Guy', cursive;
   color: #C72b81;
   text-shadow: -1px 0 white, 0 1px white,
