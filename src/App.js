@@ -80,7 +80,7 @@ function App() {
       </div>
       <div className='titleLocalizacao d-flex flex-column justify-content-evenly'>
       <a href="https://goo.gl/maps/TKd3XVBSBpDuhpUM8">
-        <p className='casarao'>Localização 2º Dia</p>
+        <p className='casarao margin2'>Localização 2º Dia</p>
         <div className='botao'>
           <img src={botao} alt='botao' />
         </div>
@@ -91,7 +91,7 @@ function App() {
           <li>Jailson Paixão</li>
           <li>Paredão 2 para 1000</li>
         </ul>
-        <p>Horário: Das 13h às 20h</p>
+        <p className='margin3' >Horário: Das 13h às 20h</p>
       </div>
       </div>
       <div className='quadroPatrocinadores'>

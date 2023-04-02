@@ -58,6 +58,14 @@ html {
   width: 150px;
 }
 
+.margin2 {
+  margin: 8px;
+}
+
+.margin3 {
+  margin: 8px;
+}
+
 .patrocinio:hover {
   width: 150px;
 }
